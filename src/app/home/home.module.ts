@@ -3,11 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HeadComponent } from './head/head.component';
+import { InfoComponent } from './info/info.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
-    HeadComponent
+    HeadComponent,
+    InfoComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

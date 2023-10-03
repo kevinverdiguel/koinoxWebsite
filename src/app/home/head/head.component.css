@@ -33,17 +33,16 @@
 */
 
 .image{
-    width:100vw;
-    height: 100vh;
+    width:100%;
+    height: auto;
     background-position: center;
     background-size: cover;
-    background-image: url('../../../assets/images/DJI_0387-HDR.jpg');
+    background-image: url('../../../assets/images/cover-image.jpg');
 }
 
 .image-overlay{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(48, 46, 44, 0.5);
     flex-direction: column;
     display: flex;
     justify-content: left;
@@ -76,5 +75,5 @@
 input{
     width: 200px;
     padding-left: 2%;
-    font-color: rgba(62,62,62);
+    color: rgba(62,62,62);
 }

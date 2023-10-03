@@ -1,0 +1,29 @@
+.bottom{
+    margin-top: 4%;
+    padding-left: 2%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+}
+
+.about{
+    margin-right: 15%;
+    text-align: justify;
+}
+
+.float-right {
+    float: left;
+    margin-right: 2%;
+    }
+
+#who{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: rgb(52, 88, 90);
+    font-weight: 700;
+}
+
+#we{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}

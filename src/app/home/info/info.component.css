@@ -1,0 +1,61 @@
+.boxContainer{
+    background-position: center bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/images/crane-for-the-construction-of-a-new-residential-bu-2022-05-06-01-51-49-utc.jpg');
+    margin: 0;
+    height: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-overlay{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: rgba(43, 73, 81,0.80);    
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.box{
+    height: 7em;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+}
+
+.col{
+    padding: 1rem;
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.item{
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
