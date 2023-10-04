@@ -34,10 +34,18 @@
 
 .image{
     width:100%;
-    height: auto;
+    height: 60%;
     background-position: center;
     background-size: cover;
     background-image: url('../../../assets/images/cover-image.jpg');
+}
+
+.imgStyle{
+    width:20%;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 10px
 }
 
 .image-overlay{
@@ -53,12 +61,13 @@
 }
 
 #topText{
-    font-size: 7rem;
+    padding-top: 10%;
+    font-size: 8.5vw;
     font-weight: 600;
 }
 
 #lowText{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 300;
     display: inline-flex;
     padding-top: 5%;

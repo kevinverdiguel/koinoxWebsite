@@ -16,7 +16,8 @@
     display: flex;
     justify-content: left;
     align-items: left;
-    background-color: rgba(43, 73, 81,0.80);    
+    /*background-color: rgba(43, 73, 81,0.90);    */
+    background-color: rgba(45, 74, 80,0.90);
     letter-spacing: 0.5px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
