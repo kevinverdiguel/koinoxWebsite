@@ -1,43 +1,13 @@
-/*.topBackground{
-    position: relative;
-}
-
-.imgTop{
-    width: 100%;
-    height: fit-content;
-    background-size: cover;
-    background-image: url(../../../assets/images/DJI_0387-HDR.jpg);
-}
-
-.topDiv{
-    color: white;
-    font-family: 'Montserrat';
-    position: absolute;
-    top:50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #fff;
-
-}
-
-.topFontBig{
-    font-size: 100px;
-    font-weight: 600;
-}
-
-.topFontSmall{
-    font-size: 30px;
-    font-weight: 500;
-}
-*/
-
 .image{
     width:100%;
     height: 60%;
+    display: flex;
     background-position: center;
     background-size: cover;
     background-image: url('../../../assets/images/cover-image.jpg');
+    box-shadow: 0 5px 10px 7px rgba(150, 70, 5, 5)!important;
+
+
 }
 
 .imgStyle{
@@ -50,7 +20,7 @@
 
 .image-overlay{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     flex-direction: column;
     display: flex;
     justify-content: left;
@@ -81,8 +51,12 @@
 
 }
 
-input{
-    width: 200px;
-    padding-left: 2%;
-    color: rgba(62,62,62);
+.form-control{
+    width: 10%;
+    margin-left: 2%;
+    font-weight: 500;
+    border-radius: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
+
