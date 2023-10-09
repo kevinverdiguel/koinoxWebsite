@@ -1,10 +1,12 @@
 .image{
     width:100%;
     height: auto;
+    background-position: right;
+    background-size: cover;
     display: flex;
-    background-position: center;
     background-size: cover;
     background-image: url('../../../assets/images/cover-image.jpg');
+    padding-bottom: 2%;
 
 }
 
@@ -30,7 +32,7 @@
 
 #topText{
     padding-top: 10%;
-    font-size: 8.5vw;
+    font-size: 8vw;
     font-weight: 600;
 }
 

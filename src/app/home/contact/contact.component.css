@@ -1,0 +1,42 @@
+.direccion{
+    width: 60%;
+    height: auto;
+    font-size: 1.21vw;
+    color: black;
+
+}
+.contactoIzq{
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.formulario{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    font-size: 1.21vw;
+
+}
+
+input{
+    margin-bottom: 1%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.direccionH{
+    font-size: 1.5vw;
+}
+
+.btn{
+    background-color: rgb(26, 181, 65);
+    color: white;
+    float: right;
+    padding-top: 1%;
+}
+
+
