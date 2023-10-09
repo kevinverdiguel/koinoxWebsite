@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { InfoComponent } from './home/info/info.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { InfoComponent } from './home/info/info.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    CoreModule,
     RouterModule.forRoot([
       {path: 'info', component: InfoComponent},
     ])

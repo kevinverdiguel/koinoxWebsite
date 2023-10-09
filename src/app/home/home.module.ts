@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {GoogleMapsModule } from '@angular/google-maps'
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+import {Router, RouterModule} from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HeadComponent } from './head/head.component';
@@ -22,7 +24,12 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    GoogleMapsModule
-  ]
+    GoogleMapsModule,
+    RouterModule,
+    NgbModule,
+    HttpClientModule
+  ],
+  exports: [HeadComponent]
+
 })
 export class HomeModule { }
