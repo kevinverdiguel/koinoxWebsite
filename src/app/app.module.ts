@@ -17,9 +17,6 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     NgbModule,
     CoreModule,
-    RouterModule.forRoot([
-      {path: 'info', component: InfoComponent},
-    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
