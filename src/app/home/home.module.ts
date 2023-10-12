@@ -4,6 +4,11 @@ import {GoogleMapsModule } from '@angular/google-maps'
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import {Router, RouterModule} from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HeadComponent } from './head/head.component';
@@ -32,4 +37,9 @@ import { ContactComponent } from './contact/contact.component';
   exports: [HeadComponent]
 
 })
-export class HomeModule { }
+export class HomeModule { 
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(far, fas, fab);
+  }
+
+}

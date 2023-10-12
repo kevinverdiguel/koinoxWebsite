@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import * as AOS from 'aos';
 
 
 @Component({
@@ -10,9 +9,6 @@ import * as AOS from 'aos';
 export class AppComponent {
   title = 'Koinox_Website';
   
-  ngOnInit() {
-    AOS.init()
-    window.addEventListener('load', AOS.refresh)
-  }
+  
   
 }
