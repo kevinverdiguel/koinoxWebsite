@@ -32,7 +32,8 @@ import { ContactComponent } from './contact/contact.component';
     GoogleMapsModule,
     RouterModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   exports: [HeadComponent]
 

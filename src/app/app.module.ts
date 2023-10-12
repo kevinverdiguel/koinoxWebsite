@@ -8,6 +8,10 @@ import { RouterModule } from '@angular/router';
 import { InfoComponent } from './home/info/info.component';
 import { CoreModule } from './core/core.module';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 @NgModule({
   declarations: [
@@ -23,4 +27,8 @@ import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontaweso
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(far, fas, fab);
+  }
+}
