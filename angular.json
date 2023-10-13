@@ -95,7 +95,6 @@
             "scripts": [
               "node_modules/aos/dist/aos.js",
               "node_modules/@fortawesome/font-awesome-free/js/all.js"
-
             ]
           }
         }
