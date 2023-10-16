@@ -45,4 +45,27 @@ a{
     padding-top: 2%;
 }
 
+@media only screen and (max-width: 768px) {
+    .direccion{
+        width: 100%;
+        height: auto;
+        font-size: 4vw;
+        color: black;
+    
+    }
+    .direccionH{
+        font-size: 6vw;
+    }
+    .formulario{
+        width: 100%;
+        padding: 20px;
+        float: none;
+    }
+    .contactoIzq{
+        width: 100%;
+        float: none;
+        padding: 20px;
+    }
+}
+
 

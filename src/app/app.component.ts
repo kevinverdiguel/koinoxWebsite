@@ -19,8 +19,8 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    AOS.init()
-    window.addEventListener('load', AOS.refresh)
+    AOS.init();
+    window.addEventListener('load', AOS.refresh);
   }
   
   

@@ -78,10 +78,29 @@ button{
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .btn{
-        font-size: 40px;
+        font-size: 20vw;
     
+    }
+    #lowText{
+        font-size: 3vw;
+        font-weight: 300;
+        display: inline-flex;
+        padding-top: 5%;
+    }
+    .form-control{
+        width: 40%;
+        margin-left: 2%;
+        font-weight: 800;
+        color: black;
+        border-radius: 0;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+    .imgStyle{
+        width: 30vw;
+        left: 20px;
+        top: 10px
     }
     
 }
@@ -91,5 +110,6 @@ button{
   }
 
 .btn{
-    font-size: 1.8vw;
+    font-size: 2vw;
 }
+

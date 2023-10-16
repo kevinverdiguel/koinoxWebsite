@@ -122,7 +122,15 @@
       }
 
       .galeriaTitulo{
-        font-size: 3vw;
+        font-size: 4vw;
         text-align: center;
         padding-top: 2%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .galeriaTitulo{
+          font-size: 6vw;
+          text-align: center;
+          padding-top: 2%;
+        }
       }
