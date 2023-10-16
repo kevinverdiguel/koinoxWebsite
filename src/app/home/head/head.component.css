@@ -17,7 +17,7 @@
 }
 
 .image-overlay{
-    width: 100vw;
+    width: 100%;
     height: auto;
     flex-direction: column;
     display: flex;
@@ -48,7 +48,7 @@
 .text{
     padding-top: 10%;
     padding-left: 2%;
-    width: 900px;
+    width: 100%;
     line-height: 1.1;
 
 }
@@ -71,4 +71,10 @@ button{
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    font-size: 1.2rem;
    
+}
+
+@media (min-width: 768px) {
+    #bs-example-navbar-collapse-1 {
+       padding: 0 0px;
+    }
 }
