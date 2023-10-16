@@ -71,3 +71,7 @@ button{
         border-radius: 0;
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
+fa-icon{
+    float: right;
+}

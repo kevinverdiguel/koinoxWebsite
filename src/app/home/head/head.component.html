@@ -13,26 +13,27 @@
 
 <div class="image ">
     <div class="image-overlay">
-        <nav class="navbar navbar-expand-lg  bg-body-tertiary mb-lg-0" data-bs-theme="dark">
-          <div class="container-fluid">
-          <div class="mx-auto order-0">
-            <a routerLink="/" class="navbar-brand abs"><img class="imgStyle" src='../../../assets/images/LOGOTIPO_KOINOX_BLANCO_Mesa de trabajo 1.png'/></a>
+      <nav class="navbar navbar-expand-lg  bg-body-tertiary mb-lg-0" data-bs-theme="dark">
+        <div class="container-fluid">
+        <div class="mx-auto order-0">
+          <a routerLink="/" class="navbar-brand abs"><img class="imgStyle" src='../../../assets/images/LOGOTIPO_KOINOX_BLANCO_Mesa de trabajo 1.png'/></a>
+        </div>
+      <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"  aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02" [ngbCollapse]="isCollapsed">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item active">
+            <a type="button" class="ml-2 mr-2 btn btn-outline-light border-0 fw-bold"  *ngFor="let item of menuItems"
+        [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
+        [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</a>
+              </li>
+            </ul>
           </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="collapse">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                <button type="button" class="ml-2 mr-2 btn btn-outline-light border-0 fw-bold"  *ngFor="let item of menuItems"
-            [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
-            [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
-                  </li>
-                </ul>
-              </div>
-            </div> 
-          </nav>
-        <div class="text">
+        </div> 
+        </nav>
+            <div class="text">
         <div class="textTop">
         <p id="topText">Juntos, construimos el futuro.</p>
         </div>
@@ -40,6 +41,7 @@
         </div>
         <div class="emailForm">
         <input type="email" class="form-control" id="email" placeholder="email">
+        <fa-icon [icon]="['fas', 'arrow-right']"></fa-icon>
         <!--<button type="submit">Submit</button>-->
         </div>
     </div>

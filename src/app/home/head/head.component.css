@@ -62,11 +62,10 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-.navbar{
+.navbar {
     background-color: transparent !important;
-    font-size: 2vw;
+    font-size: 5vw;
 }
-
 button{
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    font-size: 1.2rem;
@@ -77,4 +76,20 @@ button{
     #bs-example-navbar-collapse-1 {
        padding: 0 0px;
     }
+}
+
+@media (max-width: 768px) {
+    .btn{
+        font-size: 40px;
+    
+    }
+    
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
+.btn{
+    font-size: 1.8vw;
 }

@@ -35,7 +35,9 @@ import { ContactComponent } from './contact/contact.component';
     HttpClientModule,
     FontAwesomeModule
   ],
-  exports: [HeadComponent]
+  exports: [HeadComponent],
+  bootstrap: [HeadComponent],
+
 
 })
 export class HomeModule { 
