@@ -19,7 +19,9 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    AOS.init();
+    AOS.init({
+      disable: window.innerWidth < 992
+    });
     window.addEventListener('load', AOS.refresh);
   }
   

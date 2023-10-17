@@ -10,6 +10,10 @@
 
 }
 
+.navbar-toggler-icon{
+    border-color: green;
+}
+
 .imgStyle{
     width: 20vw;
     left: 10px;
@@ -102,6 +106,19 @@ button{
         left: 20px;
         top: 10px
     }
+    [data-aos] {
+        pointer-events: auto !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    
+      html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+        opacity: 1 !important;
+      }
+    
+      html:not(.no-js) [data-aos=fade-up] {
+        transform: none !important;
+      }
     
 }
 

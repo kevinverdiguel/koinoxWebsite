@@ -18,7 +18,7 @@
 }
 
 .form-control{
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 input{
@@ -54,7 +54,7 @@ a{
     
     }
     .direccionH{
-        font-size: 6vw;
+        font-size: 7vw;
     }
     .formulario{
         width: 100%;
@@ -65,6 +65,16 @@ a{
         width: 100%;
         float: none;
         padding: 20px;
+    }
+    h4{
+        font-size: 5vw;
+        text-align: justify;
+    }
+    .form-floating .form-control{
+        font-size: 3vw;
+    }
+    .floatingTextarea2{
+        height: 1000px;
     }
 }
 
