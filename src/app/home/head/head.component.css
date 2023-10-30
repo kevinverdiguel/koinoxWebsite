@@ -68,11 +68,11 @@
 
 .navbar {
     background-color: transparent !important;
-    font-size: 5vw;
+    font-size: 1vw;
 }
 button{
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-   font-size: 1.2rem;
+   font-size: 1.0rem;
    
 }
 
@@ -127,6 +127,6 @@ button{
   }
 
 .btn{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
